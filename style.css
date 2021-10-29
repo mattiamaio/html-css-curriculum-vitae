@@ -1,0 +1,12 @@
+header {
+    background-color: lightgrey;
+    text-align: center;
+    border-bottom: 2px solid #CC8D08;
+    }
+img {
+    width: 20%;
+    height: 20%;
+}
+body {
+    width: 925px;
+}

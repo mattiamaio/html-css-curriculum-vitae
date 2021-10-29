@@ -1,12 +1,24 @@
 header {
-    background-color: lightgrey;
+    background-color: hsla(347, 0%, 50%, 0.3);
     text-align: center;
     border-bottom: 2px solid #CC8D08;
     }
 img {
     width: 20%;
     height: 20%;
-}
+    }
 body {
     width: 925px;
-}
+    margin: auto;
+    }
+main {
+    margin-left: 2%;
+    }
+h2 {
+    color:#CC8D08;
+    }
+footer {
+    text-align: center;
+    font-size: 80%;
+    border-top: 2px solid #CC8D08;
+    }

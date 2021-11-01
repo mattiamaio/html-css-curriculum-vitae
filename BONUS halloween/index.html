@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween Party</title>
+</head>
+<body>
+    <header>
+        <h1>Festa di Halloween: partecipate a vostro rischio e pericolo!</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi 
+                ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+                voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+    </header>        
+    <form>
+        <div>
+            <label for="name">Come ti chiami?</label>
+            <br><input id="name" name="name" type="text" placeholder= "Il tuo nome" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Qual è la tua email?</label>
+            <br>
+            <input id="email" name="email" type="email" placeholder="Email" required>
+        </div>
+        <br>
+        <div>
+            <label for="phone-number">Qual è il tuo numero di telefono?</label>
+            <br><input id="phone-number" name="phone-number" type="tel" maxlength="10" placeholder="Il tuo numero di telefono">
+        </div>
+        <br>
+        <div>
+            <label for="time">A che ora arriverai?</label>
+            <br><input id="time" name="time" type="time">
+        </div>
+        <br>
+        <div>
+            <label for="friends">Quanti amici porterai? Massimo 5 amici</label>
+            <br><input id="friends" name="friends" type="number" min="0" max="5" required>
+            
+        </div>
+        <br>
+        <div>
+            <label for="info">Come ci hai trovati?</label>
+                <br><select id="info" name="info">
+                <option value="1">Tramite un amico</option>
+                <option value="2">Instagram</option>
+                <option value="3">Facebook</option>
+                <option value="4">Altro</option>
+                </select> 
+        </div>
+        <br>
+        <div> 
+            <label for="costume">Che costume indosserai?</label>
+            <br><textarea id="costume" name="costume" rows=4 cols=40 placeholder="Descrivici il tuo costume"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="dati-personali">Acconsento al trattamento dei dati personali</label>
+            <input id="dati-personali" name="dati-personali" type="checkbox" required>
+        </div>
+        <br>
+        <input type="submit" value="CONFERMA PARTECIPAZIONE">
+        <br>
+    </form>
+    <footer>
+      <h2>Lorem Ipsum S.p.A.</h2>
+      <h3>Via Ipsum Lorem 33<br>20121 Milano</h3>
+    </footer>
+    
+</body>
+</html>

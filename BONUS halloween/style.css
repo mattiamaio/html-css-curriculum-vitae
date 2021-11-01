@@ -1,0 +1,21 @@
+header{
+    text-align: center;
+} 
+
+body{
+    font: bold;
+    color: darkslategrey;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(img/background.jpg)
+}
+
+div {
+    width: 35%;
+    border: 2px solid darkslategrey;
+}
+
+footer {
+    font-size: 65%;
+    text-align: center;
+    border-top: 2px solid darkslategrey
+}
